@@ -1,0 +1,30 @@
+{
+  "name": "angular-intro",
+  "version": "1.0.0",
+  "description": "Some basic angulqr training",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Itamar",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "^1.7.8",
+    "core-js": "^2.6.9",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.7"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "copy-webpack-plugin": "^5.0.4",
+    "css-loader": "^3.2.0",
+    "file-loader": "^4.2.0",
+    "html-loader": "^0.5.5",
+    "style-loader": "^1.0.0",
+    "webpack-dev-server": "^3.8.0"
+  }
+}
